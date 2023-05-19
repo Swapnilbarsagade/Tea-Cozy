@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+}
+
+/* Header section(navbar) */
+
+.main-header {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  color: seashell;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  margin: 0px;
+  padding: 0px;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main-logo {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.navbar {
+  display: block;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: black;
+  
+}
+
+.navbar li {
+   float: right;
+}
+
+.navbar a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 10px 10px;
+  
+  
+}
+
+/* Banner Section */
+
+.main-banner {
+  max-width: 1200px;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  background-color: #000;
+  color: seashell;
+  width: 100%;
+  opacity: .9;
+
+}
+
+/* Tea Feature Section */
+
+.tea-section {
+  text-align: center;
+}
+
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto 50px;
+  padding: 10px;
+  width: 1000px;
+}
+
+.tea {
+  margin: 10px 15px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea h4 { 
+  width:300px;
+  text-align:center;
+  font-weight:bold;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Location sections */
+
+.main-location {
+  background-image: url(../images/locations-background.jpg);
+  background-position-y: 10em; 
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1200px 800px;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+
+.location-title {
+  display: flex;
+  position: relative;
+  top: 6em;
+}
+
+.location-container {
+  display: flex;
+  position: relative;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  width: 1000px;
+  top: 8em;
+}
+
+.location {
+   display: flex;
+    flex-direction: column;
+    background: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+/* Footer Section */
+
+.footer-info {
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 10px;
+}
